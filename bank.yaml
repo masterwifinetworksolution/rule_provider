@@ -1,0 +1,77 @@
+payload:
+  # RULE BY SIMASTER untuk Dana
+  - DOMAIN,dana.id
+  - DOMAIN-SUFFIX,dana.id
+  - DOMAIN-KEYWORD,dana
+  - IP-CIDR,202.91.237.0/24
+  
+  # RULE BY SIMASTER untuk OVO
+  - DOMAIN,ovo.id
+  - DOMAIN-SUFFIX,ovo.id
+  - DOMAIN-KEYWORD,ovo
+  - IP-CIDR,103.55.36.0/24
+  
+  # RULE BY SIMASTER untuk GoPay
+  - DOMAIN,gopay.co.id
+  - DOMAIN-SUFFIX,gopay.co.id
+  - DOMAIN-KEYWORD,gopay
+  - IP-CIDR,103.82.241.0/24
+  
+  # RULE BY SIMASTER untuk QRIS
+  - DOMAIN,qris.id
+  - DOMAIN-SUFFIX,qris.id
+  - DOMAIN-KEYWORD,qris
+  - IP-CIDR,103.136.142.0/24
+  
+  # RULE BY SIMASTER untuk ShopeePay
+  - DOMAIN,shopeepay.co.id
+  - DOMAIN-SUFFIX,shopeepay.co.id
+  - DOMAIN-KEYWORD,shopeepay
+  - IP-CIDR,103.86.249.0/24
+  
+  # RULE BY SIMASTER untuk SeaBank
+  - DOMAIN,seabank.co.id
+  - DOMAIN-SUFFIX,seabank.co.id
+  - DOMAIN-KEYWORD,seabank
+  - IP-CIDR,45.112.125.0/24
+  
+  # RULE BY SIMASTER untuk Perbankan di Indonesia
+  - DOMAIN,bca.co.id
+  - DOMAIN-SUFFIX,bca.co.id
+  - DOMAIN-KEYWORD,bca
+  - IP-CIDR,202.6.208.0/24
+  
+  - DOMAIN,mandiri.co.id
+  - DOMAIN-SUFFIX,mandiri.co.id
+  - DOMAIN-KEYWORD,mandiri
+  - IP-CIDR,202.3.208.0/24
+  
+  - DOMAIN,bri.co.id
+  - DOMAIN-SUFFIX,bri.co.id
+  - DOMAIN-KEYWORD,bri
+  - IP-CIDR,103.47.136.0/24
+  
+  - DOMAIN,bni.co.id
+  - DOMAIN-SUFFIX,bni.co.id
+  - DOMAIN-KEYWORD,bni
+  - IP-CIDR,202.124.204.0/24
+  
+  - DOMAIN,cimbniaga.co.id
+  - DOMAIN-SUFFIX,cimbniaga.co.id
+  - DOMAIN-KEYWORD,cimbniaga
+  - IP-CIDR,202.44.5.0/24
+  
+  - DOMAIN,btn.co.id
+  - DOMAIN-SUFFIX,btn.co.id
+  - DOMAIN-KEYWORD,btn
+  - IP-CIDR,202.47.118.0/24
+  
+  - DOMAIN,danamon.co.id
+  - DOMAIN-SUFFIX,danamon.co.id
+  - DOMAIN-KEYWORD,danamon
+  - IP-CIDR,202.47.144.0/24
+  
+  - DOMAIN,btpn.co.id
+  - DOMAIN-SUFFIX,btpn.co.id
+  - DOMAIN-KEYWORD,btpn
+  - IP-CIDR,202.60.192.0/24
