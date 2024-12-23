@@ -1,0 +1,117 @@
+payload:
+  # RULE BY SIMASTER
+
+  # YOUTUBE
+  - DOMAIN,youtube.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-KEYWORD,youtube
+  - IP-CIDR,172.217.0.0/16
+
+  # NETFLIX
+  - DOMAIN,netflix.com
+  - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,nflxvideo.net
+  - DOMAIN-KEYWORD,netflix
+  - IP-CIDR,52.89.124.0/22
+
+  # HULU
+  - DOMAIN,hulu.com
+  - DOMAIN-SUFFIX,hulustream.com
+  - DOMAIN-SUFFIX,huluim.com
+  - DOMAIN-KEYWORD,hulu
+  - IP-CIDR,103.246.56.0/24
+
+  # AMAZON PRIME VIDEO
+  - DOMAIN,primevideo.com
+  - DOMAIN-SUFFIX,primevideo.com
+  - DOMAIN-KEYWORD,primevideo
+  - IP-CIDR,54.239.0.0/16
+
+  # DISNEY+
+  - DOMAIN,disneyplus.com
+  - DOMAIN-SUFFIX,dssott.com
+  - DOMAIN-SUFFIX,bamgrid.com
+  - DOMAIN-KEYWORD,disneyplus
+  - IP-CIDR,13.224.0.0/14
+
+  # HBO MAX
+  - DOMAIN,hbomax.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-KEYWORD,hbomax
+  - IP-CIDR,35.162.0.0/16
+
+  # APPLE TV+
+  - DOMAIN,tv.apple.com
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-KEYWORD,appletv
+  - IP-CIDR,17.0.0.0/8
+
+  # SPOTIFY
+  - DOMAIN,spotify.com
+  - DOMAIN-SUFFIX,scdn.co
+  - DOMAIN-SUFFIX,spotifycdn.com
+  - DOMAIN-KEYWORD,spotify
+  - IP-CIDR,193.182.8.0/21
+
+  # CANAL PLUS
+  - DOMAIN,canalplus.com
+  - DOMAIN-SUFFIX,canalplus.fr
+  - DOMAIN-KEYWORD,canalplus
+  - IP-CIDR,37.59.0.0/16
+
+  # SHAHID
+  - DOMAIN,shahid.net
+  - DOMAIN-SUFFIX,shahid.net
+  - DOMAIN-KEYWORD,shahid
+  - IP-CIDR,31.13.64.0/18
+
+  # SHOWMAX
+  - DOMAIN,showmax.com
+  - DOMAIN-SUFFIX,showmax.com
+  - DOMAIN-KEYWORD,showmax
+  - IP-CIDR,35.186.0.0/16
+
+  # TENCENT VIDEO
+  - DOMAIN,v.qq.com
+  - DOMAIN-SUFFIX,v.qq.com
+  - DOMAIN-KEYWORD,qq
+  - IP-CIDR,47.244.0.0/16
+
+  # IFLIX
+  - DOMAIN,iflix.com
+  - DOMAIN-SUFFIX,iflix.com
+  - DOMAIN-KEYWORD,iflix
+  - IP-CIDR,103.246.56.0/24
+
+  # WETV
+  - DOMAIN,wetv.vip
+  - DOMAIN-SUFFIX,wetv.vip
+  - DOMAIN-KEYWORD,wetv
+  - IP-CIDR,47.246.0.0/16
+
+  # CRUNCHYROLL
+  - DOMAIN,crunchyroll.com
+  - DOMAIN-SUFFIX,crunchyroll.com
+  - DOMAIN-KEYWORD,crunchyroll
+  - IP-CIDR,35.186.0.0/16
+
+  # HOTSTAR
+  - DOMAIN,hotstar.com
+  - DOMAIN-SUFFIX,hotstar.com
+  - DOMAIN-KEYWORD,hotstar
+  - IP-CIDR,13.224.0.0/14
+
+  # VIU
+  - DOMAIN,viu.com
+  - DOMAIN-SUFFIX,viu.com
+  - DOMAIN-KEYWORD,viu
+  - IP-CIDR,203.119.0.0/16
+
+  # BILIBILI
+  - DOMAIN,bilibili.com
+  - DOMAIN-SUFFIX,bilibili.tv
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-KEYWORD,bilibili
+  - IP-CIDR,120.92.0.0/16

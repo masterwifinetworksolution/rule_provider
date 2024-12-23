@@ -1,77 +1,177 @@
 payload:
-  # RULE BY SIMASTER untuk Dana
-  - DOMAIN,dana.id
-  - DOMAIN-SUFFIX,dana.id
-  - DOMAIN-KEYWORD,dana
-  - IP-CIDR,202.91.237.0/24
+  # RULE BY SIMASTER
+  # Untuk e-wallet dan bank di Indonesia
   
-  # RULE BY SIMASTER untuk OVO
+  # OVO
   - DOMAIN,ovo.id
   - DOMAIN-SUFFIX,ovo.id
   - DOMAIN-KEYWORD,ovo
-  - IP-CIDR,103.55.36.0/24
+  - IP-CIDR,103.10.129.0/24
   
-  # RULE BY SIMASTER untuk GoPay
+  # Dana
+  - DOMAIN,dana.id
+  - DOMAIN-SUFFIX,dana.id
+  - DOMAIN-KEYWORD,dana
+  - IP-CIDR,103.52.129.0/24
+  
+  # LinkAja
+  - DOMAIN,linkaja.id
+  - DOMAIN-SUFFIX,linkaja.id
+  - DOMAIN-KEYWORD,linkaja
+  - IP-CIDR,103.10.129.0/24
+  
+  # GoPay
   - DOMAIN,gopay.co.id
   - DOMAIN-SUFFIX,gopay.co.id
   - DOMAIN-KEYWORD,gopay
-  - IP-CIDR,103.82.241.0/24
+  - IP-CIDR,103.82.205.0/24
   
-  # RULE BY SIMASTER untuk QRIS
-  - DOMAIN,qris.id
-  - DOMAIN-SUFFIX,qris.id
-  - DOMAIN-KEYWORD,qris
-  - IP-CIDR,103.136.142.0/24
-  
-  # RULE BY SIMASTER untuk ShopeePay
+  # ShopeePay
   - DOMAIN,shopeepay.co.id
   - DOMAIN-SUFFIX,shopeepay.co.id
   - DOMAIN-KEYWORD,shopeepay
-  - IP-CIDR,103.86.249.0/24
+  - IP-CIDR,103.82.205.0/24
   
-  # RULE BY SIMASTER untuk SeaBank
-  - DOMAIN,seabank.co.id
-  - DOMAIN-SUFFIX,seabank.co.id
-  - DOMAIN-KEYWORD,seabank
-  - IP-CIDR,45.112.125.0/24
-  
-  # RULE BY SIMASTER untuk Perbankan di Indonesia
-  - DOMAIN,bca.co.id
-  - DOMAIN-SUFFIX,bca.co.id
-  - DOMAIN-KEYWORD,bca
-  - IP-CIDR,202.6.208.0/24
-  
+  # Mandiri
   - DOMAIN,mandiri.co.id
   - DOMAIN-SUFFIX,mandiri.co.id
   - DOMAIN-KEYWORD,mandiri
-  - IP-CIDR,202.3.208.0/24
+  - IP-CIDR,103.16.36.0/24
   
+  # BRI
   - DOMAIN,bri.co.id
   - DOMAIN-SUFFIX,bri.co.id
   - DOMAIN-KEYWORD,bri
-  - IP-CIDR,103.47.136.0/24
+  - IP-CIDR,103.17.36.0/24
   
+  # BNI
   - DOMAIN,bni.co.id
   - DOMAIN-SUFFIX,bni.co.id
   - DOMAIN-KEYWORD,bni
-  - IP-CIDR,202.124.204.0/24
+  - IP-CIDR,103.208.17.0/24
   
-  - DOMAIN,cimbniaga.co.id
-  - DOMAIN-SUFFIX,cimbniaga.co.id
-  - DOMAIN-KEYWORD,cimbniaga
-  - IP-CIDR,202.44.5.0/24
+  # BCA
+  - DOMAIN,bca.co.id
+  - DOMAIN-SUFFIX,bca.co.id
+  - DOMAIN-KEYWORD,bca
+  - IP-CIDR,103.208.18.0/24
   
+  # Bank Jatim
+  - DOMAIN,bankjatim.co.id
+  - DOMAIN-SUFFIX,bankjatim.co.id
+  - DOMAIN-KEYWORD,bankjatim
+  - IP-CIDR,103.102.13.0/24
+  
+  # BTN
   - DOMAIN,btn.co.id
   - DOMAIN-SUFFIX,btn.co.id
   - DOMAIN-KEYWORD,btn
-  - IP-CIDR,202.47.118.0/24
+  - IP-CIDR,103.102.14.0/24
   
-  - DOMAIN,danamon.co.id
-  - DOMAIN-SUFFIX,danamon.co.id
-  - DOMAIN-KEYWORD,danamon
-  - IP-CIDR,202.47.144.0/24
+  # Permata Bank
+  - DOMAIN,permatanet.com
+  - DOMAIN-SUFFIX,permatanet.com
+  - DOMAIN-KEYWORD,permata
+  - IP-CIDR,103.246.18.0/24
   
-  - DOMAIN,btpn.co.id
-  - DOMAIN-SUFFIX,btpn.co.id
-  - DOMAIN-KEYWORD,btpn
-  - IP-CIDR,202.60.192.0/24
+  # Maybank
+  - DOMAIN,maybank.co.id
+  - DOMAIN-SUFFIX,maybank.co.id
+  - DOMAIN-KEYWORD,maybank
+  - IP-CIDR,103.102.15.0/24
+  
+  # OCBC NISP
+  - DOMAIN,ocbcnisp.com
+  - DOMAIN-SUFFIX,ocbcnisp.com
+  - DOMAIN-KEYWORD,ocbcnisp
+  - IP-CIDR,103.10.18.0/24
+  
+  # CIMB Niaga
+  - DOMAIN,cimbniaga.co.id
+  - DOMAIN-SUFFIX,cimbniaga.co.id
+  - DOMAIN-KEYWORD,cimbniaga
+  - IP-CIDR,103.10.19.0/24
+  
+  # DBS
+  - DOMAIN,dbs.id
+  - DOMAIN-SUFFIX,dbs.id
+  - DOMAIN-KEYWORD,dbs
+  - IP-CIDR,103.253.212.0/24
+  
+  # HSBC
+  - DOMAIN,hsbc.co.id
+  - DOMAIN-SUFFIX,hsbc.co.id
+  - DOMAIN-KEYWORD,hsbc
+  - IP-CIDR,103.253.213.0/24
+  
+  # UOB
+  - DOMAIN,uob.co.id
+  - DOMAIN-SUFFIX,uob.co.id
+  - DOMAIN-KEYWORD,uob
+  - IP-CIDR,103.6.139.0/24
+  
+  # Bank Mega
+  - DOMAIN,mega.co.id
+  - DOMAIN-SUFFIX,mega.co.id
+  - DOMAIN-KEYWORD,mega
+  - IP-CIDR,103.6.140.0/24
+  
+  # Bank Panin
+  - DOMAIN,panin.co.id
+  - DOMAIN-SUFFIX,panin.co.id
+  - DOMAIN-KEYWORD,panin
+  - IP-CIDR,103.255.37.0/24
+  
+  # Bank Muamalat
+  - DOMAIN,bankmuamalat.co.id
+  - DOMAIN-SUFFIX,bankmuamalat.co.id
+  - DOMAIN-KEYWORD,muamalat
+  - IP-CIDR,103.255.38.0/24
+  
+  # Bank Syariah Mandiri
+  - DOMAIN,banksyariahmandiri.co.id
+  - DOMAIN-SUFFIX,banksyariahmandiri.co.id
+  - DOMAIN-KEYWORD,syariahmandiri
+  - IP-CIDR,103.23.29.0/24
+  
+  # Bank Bukopin
+  - DOMAIN,bukopin.co.id
+  - DOMAIN-SUFFIX,bukopin.co.id
+  - DOMAIN-KEYWORD,bukopin
+  - IP-CIDR,103.23.30.0/24
+  
+  # Bank Jateng
+  - DOMAIN,bankjateng.co.id
+  - DOMAIN-SUFFIX,bankjateng.co.id
+  - DOMAIN-KEYWORD,jateng
+  - IP-CIDR,103.91.24.0/24
+  
+  # Bank BJB
+  - DOMAIN,bankbjb.co.id
+  - DOMAIN-SUFFIX,bankbjb.co.id
+  - DOMAIN-KEYWORD,bjb
+  - IP-CIDR,103.91.25.0/24
+  
+  # Bank Banten
+  - DOMAIN,bankbanten.co.id
+  - DOMAIN-SUFFIX,bankbanten.co.id
+  - DOMAIN-KEYWORD,banten
+  - IP-CIDR,103.96.115.0/24
+  
+  # Bank Jabar
+  - DOMAIN,bankjabar.co.id
+  - DOMAIN-SUFFIX,bankjabar.co.id
+  - DOMAIN-KEYWORD,jabar
+  - IP-CIDR,103.96.116.0/24
+  
+  # Bank Sinarmas
+  - DOMAIN,sinarmas.com
+  - DOMAIN-SUFFIX,sinarmas.com
+  - DOMAIN-KEYWORD,sinarmas
+  - IP-CIDR,103.205.40.0/24
+  
+  # Standard Chartered
+  - DOMAIN,standardchartered.co.id
+  - DOMAIN-SUFFIX,standardchartered.co.id
+  - DOMAIN-KEYWORD,standardchartered
+  - IP-CIDR,103.205.41.0/24

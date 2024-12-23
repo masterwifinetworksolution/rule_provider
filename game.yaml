@@ -1,3 +1,158 @@
 payload:
-
   # RULE BY SIMASTER
+
+  # STEAM
+  - DOMAIN,steampowered.com
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN-KEYWORD,steam
+  - IP-CIDR,208.64.200.0/22
+  - DST-PORT,27015/27020
+
+  # EPIC GAMES
+  - DOMAIN,epicgames.com
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,unrealengine.com
+  - DOMAIN-KEYWORD,epicgames
+  - IP-CIDR,199.255.40.0/22
+  - DST-PORT,5222
+
+  # ORIGIN
+  - DOMAIN,origin.com
+  - DOMAIN-SUFFIX,ea.com
+  - DOMAIN-SUFFIX,easports.com
+  - DOMAIN-KEYWORD,origin
+  - IP-CIDR,159.153.0.0/16
+  - DST-PORT,8080/8085
+
+  # BLIZZARD
+  - DOMAIN,blizzard.com
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,blzmedia.com
+  - DOMAIN-KEYWORD,blizzard
+  - IP-CIDR,37.244.0.0/16
+  - DST-PORT,1119/3724
+
+  # UBISOFT
+  - DOMAIN,ubisoft.com
+  - DOMAIN-SUFFIX,ubisoft.net
+  - DOMAIN-SUFFIX,uplay.com
+  - DOMAIN-KEYWORD,ubisoft
+  - IP-CIDR,216.98.48.0/20
+  - DST-PORT,3074
+
+  # RIOT GAMES
+  - DOMAIN,riotgames.com
+  - DOMAIN-SUFFIX,leagueoflegends.com
+  - DOMAIN-SUFFIX,playvalorant.com
+  - DOMAIN-KEYWORD,riotgames
+  - IP-CIDR,192.64.170.0/24
+  - DST-PORT,2099/5222
+
+  # PLAYSTATION NETWORK
+  - DOMAIN,playstation.com
+  - DOMAIN-SUFFIX,playstation.net
+  - DOMAIN-SUFFIX,psn.com
+  - DOMAIN-KEYWORD,playstation
+  - IP-CIDR,203.194.0.0/16
+  - DST-PORT,3478/3479
+
+  # XBOX LIVE
+  - DOMAIN,xbox.com
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-KEYWORD,xbox
+  - IP-CIDR,131.253.21.0/24
+
+  # NINTENDO
+  - DOMAIN,nintendo.com
+  - DOMAIN-SUFFIX,nintendo.net
+  - DOMAIN-SUFFIX,nintendo.co.jp
+  - DOMAIN-KEYWORD,nintendo
+  - IP-CIDR,111.64.0.0/14
+  - DST-PORT,1024/65535
+
+  # ROBLOX
+  - DOMAIN,roblox.com
+  - DOMAIN-SUFFIX,rbxcdn.com
+  - DOMAIN-SUFFIX,roblox.com
+  - DOMAIN-KEYWORD,roblox
+  - IP-CIDR,128.116.0.0/17
+  - DST-PORT,49152/65535
+
+  # TENCENT GAMES
+  - DOMAIN,qq.com
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,igame.qq.com
+  - DOMAIN-KEYWORD,tencent
+  - IP-CIDR,119.147.0.0/16
+  - DST-PORT,8080
+
+  # MOBILE LEGENDS
+  - DOMAIN,mobilelegends.com
+  - DOMAIN-SUFFIX,mobilelegends.com
+  - DOMAIN-KEYWORD,mobilelegends
+  - IP-CIDR,203.119.0.0/16
+  - DST-PORT,30000-30001/10000-20000
+
+  # PUBG MOBILE
+  - DOMAIN,pubgmobile.com
+  - DOMAIN-SUFFIX,pubgmobile.com
+  - DOMAIN-KEYWORD,pubgmobile
+  - IP-CIDR,47.254.0.0/16
+  - DST-PORT,10000/19999
+
+  # FREE FIRE
+  - DOMAIN,ff.garena.com
+  - DOMAIN-SUFFIX,garena.com
+  - DOMAIN-KEYWORD,freefire
+  - IP-CIDR,118.98.0.0/16
+  - DST-PORT,30001/30003
+
+  # GENSHIN IMPACT
+  - DOMAIN,genshin.mihoyo.com
+  - DOMAIN-SUFFIX,mihoyo.com
+  - DOMAIN-KEYWORD,genshin
+  - IP-CIDR,117.78.0.0/16
+  - DST-PORT,22102/22110
+
+  # CALL OF DUTY MOBILE
+  - DOMAIN,callofduty.com
+  - DOMAIN-SUFFIX,activision.com
+  - DOMAIN-KEYWORD,callofduty
+  - IP-CIDR,63.251.0.0/16
+  - DST-PORT,3074/17500/17550
+
+  # FORTNITE
+  - DOMAIN,fortnite.com
+  - DOMAIN-SUFFIX,fortnite.com
+  - DOMAIN-KEYWORD,fortnite
+  - IP-CIDR,35.186.0.0/16
+
+  # AMONG US
+  - DOMAIN,innersloth.com
+  - DOMAIN-SUFFIX,innersloth.com
+  - DOMAIN-KEYWORD,amongus
+  - IP-CIDR,47.74.0.0/16
+  - DST-PORT,22023/22026
+
+  # CLASH OF CLANS
+  - DOMAIN,supercell.com
+  - DOMAIN-SUFFIX,clashofclans.com
+  - DOMAIN-KEYWORD,clashofclans
+  - IP-CIDR,35.244.0.0/16
+  - DST-PORT,9339
+
+  # CLASH ROYALE
+  - DOMAIN,clashroyale.com
+  - DOMAIN-SUFFIX,supercell.com
+  - DOMAIN-KEYWORD,clashroyale
+  - IP-CIDR,35.244.0.0/16
+  - DST-PORT,9339
+
+  # BRAWL STARS
+  - DOMAIN,brawlstars.com
+  - DOMAIN-SUFFIX,supercell.com
+  - DOMAIN-KEYWORD,brawlstars
+  - IP-CIDR,35.244.0.0/16
+  - DST-PORT,9339
