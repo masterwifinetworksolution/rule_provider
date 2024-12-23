@@ -1,55 +1,24 @@
 payload:
-  # RULE BY SIMASTER
-  # AMAZON
-  - DOMAIN, amazon.com
-  - DOMAIN-SUFFIX, amazon.co.uk
-  - DOMAIN-SUFFIX, amazon.co.jp
-  - DOMAIN-KEYWORD, amazon
-  - IP-CIDR, 205.251.242.0/24
-
-  # EBAY
-  - DOMAIN, ebay.com
-  - DOMAIN-SUFFIX, ebay.co.uk
-  - DOMAIN-SUFFIX, ebay.de
-  - DOMAIN-KEYWORD, ebay
-  - IP-CIDR, 66.211.160.0/20
-
-  # ALIBABA
-  - DOMAIN, alibaba.com
-  - DOMAIN-SUFFIX, alibaba-inc.com
-  - DOMAIN-SUFFIX, taobao.com
-  - DOMAIN-KEYWORD, alibaba
-  - IP-CIDR, 140.205.0.0/16
-
-  # ETSY
-  - DOMAIN, etsy.com
-  - DOMAIN-SUFFIX, etsy.co.uk
-  - DOMAIN-KEYWORD, etsy
-  - IP-CIDR, 199.232.64.0/21
-
-  # SHOPIFY
-  - DOMAIN, shopify.com
-  - DOMAIN-SUFFIX, myshopify.com
-  - DOMAIN-SUFFIX, shopify.co.uk
-  - DOMAIN-KEYWORD, shopify
-  - IP-CIDR, 23.227.38.0/24
-
-  # SHOPEE
-  - DOMAIN, shopee.com
-  - DOMAIN-SUFFIX, shopee.co.id
-  - DOMAIN-SUFFIX, shopee.sg
-  - DOMAIN-KEYWORD, shopee
-  - IP-CIDR, 103.70.16.0/22
-
-  # LAZADA
-  - DOMAIN, lazada.com
-  - DOMAIN-SUFFIX, lazada.co.id
-  - DOMAIN-SUFFIX, lazada.com.ph
-  - DOMAIN-KEYWORD, lazada
-  - IP-CIDR, 66.211.160.0/20
-
-  # TOKOPEDIA
-  - DOMAIN, tokopedia.com
-  - DOMAIN-SUFFIX, tokopedia.co.id
-  - DOMAIN-KEYWORD, tokopedia
-  - IP-CIDR, 103.70.16.0/22
+  - DOMAIN-KEYWORD,amazon
+  - DOMAIN-KEYWORD,ebay
+  - DOMAIN-KEYWORD,aliexpress
+  - DOMAIN-KEYWORD,walmart
+  - DOMAIN-KEYWORD,etsy
+  - DOMAIN-KEYWORD,rakuten
+  - DOMAIN-KEYWORD,tokopedia
+  - DOMAIN-KEYWORD,bukalapak
+  - DOMAIN-KEYWORD,shopee
+  - DOMAIN-KEYWORD,blibli
+  - DOMAIN-KEYWORD,lazada
+  - DOMAIN-KEYWORD,jd.id
+  - DOMAIN-KEYWORD,zalora
+  - DOMAIN-KEYWORD,mataharimall
+  - DOMAIN-KEYWORD,alibaba
+  - DOMAIN-KEYWORD,bestbuy
+  - DOMAIN-KEYWORD,newegg
+  - DOMAIN-KEYWORD,sephora
+  - DOMAIN-KEYWORD,target
+  - DOMAIN-KEYWORD,elevenia
+  - DOMAIN-KEYWORD,bhinneka
+  - DOMAIN-KEYWORD,orami
+  - DOMAIN-KEYWORD,blanja

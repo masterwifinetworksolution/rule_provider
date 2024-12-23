@@ -1,65 +1,27 @@
 payload:
-  # RULE BY SIMASTER
-
-  # FACEBOOK
-  - DOMAIN,facebook.com
-  - DOMAIN-SUFFIX,fbcdn.net
-  - DOMAIN-SUFFIX,facebook.net
   - DOMAIN-KEYWORD,facebook
-  - IP-CIDR,69.171.224.0/19
-
-  # TWITTER
-  - DOMAIN,twitter.com
-  - DOMAIN-SUFFIX,twimg.com
-  - DOMAIN-SUFFIX,twitter.co
+  - DOMAIN-KEYWORD,fbcdn
   - DOMAIN-KEYWORD,twitter
-  - IP-CIDR,104.244.42.0/22
-
-  # INSTAGRAM
-  - DOMAIN,instagram.com
-  - DOMAIN-SUFFIX,cdninstagram.com
-  - DOMAIN-SUFFIX,instagram.org
+  - DOMAIN-KEYWORD,t.co
+  - DOMAIN-KEYWORD,twimg
   - DOMAIN-KEYWORD,instagram
-  - IP-CIDR,3.212.193.0/24
-
-  # LINKEDIN
-  - DOMAIN,linkedin.com
-  - DOMAIN-SUFFIX,licdn.com
-  - DOMAIN-SUFFIX,lnkd.in
+  - DOMAIN-KEYWORD,cdninstagram
   - DOMAIN-KEYWORD,linkedin
-  - IP-CIDR,108.174.0.0/17
-
-  # SNAPCHAT
-  - DOMAIN,snapchat.com
-  - DOMAIN-SUFFIX,scdn.co
-  - DOMAIN-SUFFIX,snap.com
+  - DOMAIN-KEYWORD,licdn
   - DOMAIN-KEYWORD,snapchat
-  - IP-CIDR,216.239.32.0/19
-
-  # TIKTOK
-  - DOMAIN,tiktok.com
-  - DOMAIN-SUFFIX,tiktokcdn.com
-  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-KEYWORD,scdn
   - DOMAIN-KEYWORD,tiktok
-  - IP-CIDR,47.252.64.0/18
-
-  # REDDIT
-  - DOMAIN,reddit.com
-  - DOMAIN-SUFFIX,redd.it
-  - DOMAIN-SUFFIX,redditmedia.com
-  - DOMAIN-KEYWORD,reddit
-  - IP-CIDR,151.101.0.0/16
-
-  # WHATSAPP
-  - DOMAIN,whatsapp.com
-  - DOMAIN-SUFFIX,whatsapp.net
-  - DOMAIN-SUFFIX,whatsapp.org
+  - DOMAIN-KEYWORD,tiktokcdn
   - DOMAIN-KEYWORD,whatsapp
-  - IP-CIDR,169.45.0.0/16
-
-  # DISCORD
-  - DOMAIN,discord.com
-  - DOMAIN-SUFFIX,discord.gg
-  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-KEYWORD,whatsapp.net
+  - DST-PORT,3478
+  - DOMAIN-KEYWORD,pinterest
+  - DOMAIN-KEYWORD,pinimg
+  - DOMAIN-KEYWORD,reddit
+  - DOMAIN-KEYWORD,redd.it
   - DOMAIN-KEYWORD,discord
-  - IP-CIDR,162.159.128.0/24
+  - DOMAIN-KEYWORD,discordapp
+  - DOMAIN-KEYWORD,discord.gg
+  - DOMAIN-KEYWORD,disqus
+  - DOMAIN-KEYWORD,disquscdn
+  - DOMAIN-KEYWORD,capcut
